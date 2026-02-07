@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icon-ratio.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct travelrouteApp: App {
+    @StateObject private var appEnvironment = AppEnvironment.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
+        .modelContainer(appEnvironment.modelContainer)
     }
 }
